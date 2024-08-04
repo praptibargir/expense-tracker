@@ -1,0 +1,42 @@
+.container{
+    display: block;
+    margin:50px auto;
+    border: 5px double black;
+    border-radius: 5px;
+    width: 400px;
+    background-color:rgb(230, 242, 255);
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.title{
+    text-align: center;
+}
+
+.user-input{
+    display: block;
+    margin: 10px auto;
+    font-size: 15px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.btn{
+    display: block;
+    margin: 30px auto;
+    padding: 12px 25px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transition: 0.5s;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
