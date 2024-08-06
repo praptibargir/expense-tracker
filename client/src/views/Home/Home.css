@@ -1,0 +1,41 @@
+.home-greeting{
+    text-align: center;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.home-heading{
+    text-align: center;
+    font-size: 28px;
+    margin: 10px;
+    
+}
+
+.logout{
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.net-transaction-value{
+    display:flex;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
+.net-transaction-value-item{
+    width: 150px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.net-transaction-value-title{
+    display: block;
+    text-align: center;
+}

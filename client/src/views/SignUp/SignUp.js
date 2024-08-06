@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import "./SignUp.css";
 import axios from 'axios';
 import toast, { Toaster } from "react-hot-toast";
+import {Link} from "react-router-dom"
 
 function SignUp() {
 
@@ -38,7 +39,7 @@ function SignUp() {
         <div className='container'>
             <h1 className='title'>User Registration</h1>
 
-            <form className='signup-container'>
+            <form className='form-container'>
                 <input
                     type='text'
                     placeholder='Enter Full Name'
@@ -87,6 +88,9 @@ function SignUp() {
                     Register Now
                 </button>
             </form>
+
+            <Link to="/login" className="link">Already have an account? Login</Link>
+
             <Toaster />
         </div>
     )
