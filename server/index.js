@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
 import { postLogin, postSignUp } from "./controllers/user.js";
-import { getTransactions, postTransaction } from "./controllers/transation.js";
+import { getTransactions, postTransaction, deleteTransaction} from "./controllers/transation.js";
 dotenv.config();
 
 
@@ -35,11 +35,11 @@ app.post("/transaction",postTransaction)
 
 app.get("/transactions",getTransactions)
 
+app.delete("/transaction/:id",deleteTransaction)
+
 
 const PORT = process.env.PORT
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`)
 })
-
-

@@ -127,6 +127,7 @@ function Home() {
               category={category}
               type={type}
               createdAt={createdAt}
+              loadTransactions={loadTransactions}
             />
           })
         }

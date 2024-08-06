@@ -31,3 +31,22 @@
     bottom: 10px;
 }
 
+.transaction-card-delete{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.transaction-card-delete:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+
+}
+
+
+
+
