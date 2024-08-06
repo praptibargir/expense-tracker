@@ -62,7 +62,7 @@
 .add-img{
     position: fixed;
     bottom: 10px;
-    right: 10px;
+    right: 30px;
     height: 40px;
     padding: 7px 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.9);
@@ -75,6 +75,18 @@
 
 .add-img:hover{
     box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
 }
    
 
