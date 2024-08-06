@@ -20,6 +20,12 @@
     background-color: white;
     border-radius: 20px;
     padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+
+.logout:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
 }
 
 .net-transaction-value{
@@ -30,12 +36,45 @@
 
 .net-transaction-value-item{
     width: 150px;
-    border: 1px solid black;
+    border: 1.5px solid black;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
+    background-color: white;
 }
 
 .net-transaction-value-title{
     display: block;
     text-align: center;
 }
+
+.net-transaction-value-amount{
+    display: block;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.transactions-display{
+    max-height: 350px;
+    overflow-y: scroll;
+}
+
+.add-img{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 40px;
+    padding: 7px 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border: 1px double black;
+}
+
+.add-img:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
+   
+
